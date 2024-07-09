@@ -1,0 +1,6 @@
+Name: Azure OpenAI Proxy Provider
+Description: Model provider for Azure OpenAI Proxy hosted models
+Model Provider: true
+
+
+#!sys.daemon /usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py
