@@ -1,7 +1,7 @@
 {
     "builds": [
       {
-        "src": "main.py",
+        "src": "main_proxy.py",
         "use": "@vercel/python"
       }
     ],
