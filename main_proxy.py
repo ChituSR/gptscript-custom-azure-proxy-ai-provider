@@ -46,7 +46,7 @@ async def get_root():
 # Only needed when running standalone. With GPTScript, the `id` returned by this endpoint must match the model (deployment) you are passing in.
 @app.get("/v1/models")
 async def list_models() -> JSONResponse:
-    return JSONResponse(content={"data": [{"id": "gpt-4-32k", "name": "Your model"}]})
+    return JSONResponse(content={"data": [{"id": "gpt-4o", "name": "Your model"}]})
 
 
 @app.post("/v1/chat/completions")
